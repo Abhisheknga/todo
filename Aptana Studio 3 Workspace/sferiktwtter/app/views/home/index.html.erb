@@ -1,0 +1,7 @@
+<h1>Home#index</h1>
+<%= link_to "Task Due Date", :action => "method1"%>
+<%if @client%>
+<% @client.sample do |tweet| %>
+<%= tweet.text %>
+<% end %>
+<%end%>
